@@ -138,6 +138,12 @@ a {
     margin-top: 34px;
 }
 
+.hero__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .hero__label {
     display: flex;
     align-items: center;
@@ -209,4 +215,102 @@ a {
     font-size: 1.4rem;
     font-weight: 600;
     line-height: 171.429%;
+}
+
+.hero__media {
+    margin-left: 160px;
+    flex: 1;
+}
+
+.hero__media-wrap {
+    position: relative;
+}
+
+.hero__media-img {
+    height: 562px;
+}
+
+.hero-deposit {
+    position: absolute;
+    top: 113px;
+    left: -100px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 14px 10px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
+}
+
+.hero-deposit__text {
+    color: #31456a;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 100%;
+    margin-left: 8px;
+}
+
+.hero-deposit__price {
+    margin-left: 19px;
+    color: #4ab5e3;
+    font-size: 1.4rem;
+    line-height: 100%;
+}
+
+.hero-interest {
+    position: absolute;
+    top: 127px;
+    right: -44px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #da6464;
+}
+
+.hero-interest__percent {
+    color: #fff;
+    font-size: 4.4rem;
+    font-weight: 600;
+}
+
+.hero-interest__text {
+    color: #fff;
+}
+
+.hero-secure {
+    position: absolute;
+    bottom: 61px;
+    right: 74px;
+
+    display: flex;
+
+    padding: 20px 14px;
+    border-radius: 10px;
+    background: #439f90;
+}
+
+.hero-secure__content {
+    margin-left: 11px;
+}
+
+.hero-secure__price {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.hero-secure__text {
+    margin-top: 5px;
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 100%;
 }
